@@ -1,21 +1,21 @@
 # Realtime_Facial_Emotion_Detection
  
-A **Deep Learning Project** in which I built a **Convolutional Neural Network** to detect **7 different facial emotion in live camera**.
+A <code>**Deep Learning Project**</code> in which I built a <code>**Convolutional Neural Network**</code> to detect <code>**7 different facial emotion in live camera**</code>.
 
-- A CSV file containing **28709 training images** was used to train the model.
+- A CSV file containing <code>**28709 training images**</code> was used to train the model.
 
-- The model was tested on **3589 images** and had an accuracy of **83.95%**.
+- The model was tested on <code>**3589 images**</code> and had an accuracy of <code>**83.95%**</code>.
 
-- The model was trained for **100 epochs** with a **batch size of 64**.
-I had NVIDIA GPU in my laptop, so it took roughly **33 seconds for 1 epoch**.
+- The model was trained for <code>**100 epochs**</code> with a <code>**batch size of 64**</code>.
+I had NVIDIA GPU in my laptop, so it took roughly <code>**33 seconds for 1 epoch**</code>.
 
-- **Conv2D layer** was added with a **kernel size of 3*3**  and had **relu activation**.
+- <code>**Conv2D layer**</code> was added with a <code>**kernel size of 3*3**</code>  and had <code>**relu activation**</code>.
 
-- The model was **flattened** after the addition of **Conv2d layers** and a **Dense neural network** was formed.
+- The model was <code>**flattened**</code> after the addition of <code>**Conv2d layers**</code> and a <code>**Dense neural network**</code> was formed.
 
-- The final dense layer has **softmax as its activation function**.
+- The final dense layer has <code>**softmax as its activation function**</code>.
 
-- Finally the model was compiled with **Adam** as the optimizer.
+- Finally the model was compiled with <code>**Adam**</code> as the optimizer.
 
 - The model was saved in the form of json and was reused in the videotester.py file which is used to detect face from the live camera.
 
